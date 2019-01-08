@@ -1,4 +1,14 @@
 {
+  "name": "yet-another-next-template",
+  "version": "0.0.1",
+  "description": "just another next template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "NODE_ENV=test jest"
+  },
   "dependencies": {
     "@zeit/next-typescript": "^1.1.1",
     "next": "^7.0.2",
@@ -10,7 +20,13 @@
     "@types/next": "^7.0.6",
     "@types/react": "^16.7.18",
     "@types/react-dom": "^16.0.11",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "jest-dom": "^3.0.0",
     "nodemon": "^1.18.9",
+    "react-testing-library": "^5.4.4",
+    "ts-jest": "^23.10.5",
     "ts-node": "^7.0.1",
     "tslint": "^5.12.0"
   }
