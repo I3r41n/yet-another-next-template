@@ -6,7 +6,7 @@
     "target": "esnext",
     "module": "esnext",
     "jsx": "preserve",
-    "allowJs": true,
+    "allowJs": false,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
@@ -15,7 +15,6 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "skipLibCheck": true,
-    "baseUrl": ".",
     "downlevelIteration": true,
     "lib": [
       "dom",
@@ -24,8 +23,8 @@
     ]
   },
   "exclude": [ "node_modules",
+    "**/*.config.js",
+    "**/*.setup.js",
     "**/*.spec.ts",
-    "**/*.spec.tsx",
-    "**/*.test.ts",
-    "**/*.test.tsx"]
+    "**/*.spec.tsx"]
 }
