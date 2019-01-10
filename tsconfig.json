@@ -22,7 +22,8 @@
       "es2017"
     ]
   },
-  "exclude": [ "node_modules",
+  "exclude": [ 
+    "node_modules",
     "**/*.config.js",
     "**/*.setup.js",
     "**/*.spec.ts",

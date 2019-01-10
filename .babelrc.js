@@ -7,11 +7,12 @@ module.exports = {
          presets: ['next/babel', '@zeit/next-typescript/babel']
       },
       "test": {
-         presets: ['next/babel', {
-            "preset-env": {
+         presets: ['next/babel', 
+            '@zeit/next-typescript/babel',
+            { "preset-env": {
                 "modules": "commonjs"
-            }, },
-            '@zeit/next-typescript/babel']
+            }, 
+         }]
       }
    },
 
