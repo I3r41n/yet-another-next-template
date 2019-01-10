@@ -1,5 +1,7 @@
 {
   "name": "yet-another-next-template",
+  "author": "bruno santos",
+  "license": "MIT",
   "version": "0.0.1",
   "description": "just another next template",
   "main": "index.js",
