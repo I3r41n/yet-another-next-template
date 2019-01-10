@@ -12,6 +12,7 @@
   "dependencies": {
     "@zeit/next-typescript": "^1.1.1",
     "next": "^7.0.2",
+    "next-eslint": "^0.0.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "typescript": "^3.2.2"
@@ -36,7 +37,6 @@
   },
   "jest": {
     "preset": "ts-jest",
-    "verbose": true,
     "moduleFileExtensions": [
       "ts",
       "tsx",

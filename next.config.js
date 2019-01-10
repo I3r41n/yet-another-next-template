@@ -1,2 +1,4 @@
 const withTypescript = require('@zeit/next-typescript')
-module.exports = withTypescript()
+const withESLint = require('next-eslint')
+
+module.exports = withESLint(withTypescript())
